@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+    /* Custom Blasses */
+    .text-content {
+        width: 100%;
+    }
+    /* Navbar Brand */
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+        color: var(--black-color);
+    }
+    /* Banner Design */
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+    /* Carousel Design */
+    /* Footer Link */
+}
+
+@media (max-width: 767px) {
+    /* Custom CSS */
+    h1 {
+        font-size: 2.8rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+    /* Top Banner */
+    .top-banner {
+        padding: 10.375rem 0 9.375rem;
+    }
+    /* Carousel Design */
+}

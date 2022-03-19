@@ -79,8 +79,8 @@ h1 {
     font-size: 58px;
     font-weight: 900;
     margin-bottom: 1rem;
-    color: var(--secondry-color);
-    line-height: 3rem;
+    color: var(--white-color);
+    text-shadow: 1px 0 6px #000;
 }
 
 h1 span {
@@ -179,7 +179,7 @@ p {
 }
 
 .nav-link {
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-transform: capitalize;
     color: var(--white-color);
@@ -217,4 +217,14 @@ p {
 .navigation-wrap.scroll-on .nav-link:hover,
 .navigation-wrap.scroll-on .nav-link.active {
     color: var(--primary-color);
+}
+
+
+/* Top-banner Design */
+
+.top-banner {
+    width: 100%;
+    background: url('../images/bg/bg-pho-1.jpg');
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
 }
